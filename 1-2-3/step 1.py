@@ -39,12 +39,12 @@ def draw_spiral():
             if randomNum == 1:
                 draw_barrier()
                 draw_door()
-                maze_painter.forward(wall_length + wall_increment - 30)
-                wall_increment += 10
+
             else:
                 draw_barrier()
                 draw_door()
-
+        maze_painter.forward(wall_length + wall_increment - 30)
+        wall_increment += 10
 
     maze_painter.hideturtle()
 
